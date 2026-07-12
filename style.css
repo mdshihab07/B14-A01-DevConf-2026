@@ -86,21 +86,33 @@ nav{
 
 .p-1{
     color: #1d4ed8;
+    padding-left: 15px;
 }
-
+.p-2{
+  padding-left: 15px;
+}
 .speakers-gellery{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
-    text-align: center;
     gap: 32px;
+    border-radius: 25px;
 
 }
 .speakers-card{
     border-radius: 12px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.08);
 }
+.speakers-card img{
+  width: 100%;
+}
+
+.speakers-card h4{
+  padding-left: 15px;
+}
+
 .speakers{
     padding-bottom: 100px;
 }
